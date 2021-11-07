@@ -181,7 +181,7 @@ const App = () => {
       console.log("Fetching gif list....");
       getGifList();
     }
-  }, [walletAddress, getGifList]);
+  }, [walletAddress]);
 
   return (
     <div className="App">
